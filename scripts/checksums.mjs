@@ -30,12 +30,20 @@ if (exeFiles.length === 0) {
   process.exit(1)
 }
 
-const lines = []
+// GitHub แทนช่องว่างในชื่อ asset ด้วยจุดตอนอัปโหลดขึ้น release
+// จึงต้องบันทึกชื่อแบบที่ผู้ใช้โหลดมาจริง ไม่ใช่ชื่อไฟล์ในเครื่อง
+const releaseName = (name) => name.replace(/ /g, '.')
+
+const lines = [
+  '# SHA-256 ของไฟล์ที่ build ได้จากซอร์สโค้ดรุ่นนี้',
+  '# ตรวจสอบด้วย PowerShell:  Get-FileHash <ชื่อไฟล์> -Algorithm SHA256',
+  '# ชื่อไฟล์ตรงตามที่ดาวน์โหลดจาก GitHub (ช่องว่างถูกแทนด้วยจุด)',
+]
 for (const name of exeFiles) {
   const digest = await sha256(join(RELEASE_DIR, name))
   // รูปแบบเดียวกับคำสั่ง sha256sum เพื่อให้ตรวจสอบข้ามเครื่องมือกันได้
-  lines.push(`${digest}  ${name}`)
-  console.log(`${digest}  ${name}`)
+  lines.push(`${digest}  ${releaseName(name)}`)
+  console.log(`${digest}  ${releaseName(name)}`)
 }
 
 const outPath = join(RELEASE_DIR, 'SHA256SUMS.txt')
