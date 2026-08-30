@@ -13,9 +13,10 @@
 | ไฟล์ | ใช้ตอนไหน |
 |---|---|
 | `VTuber Schedule <version> portable.exe` | **Portable** — ดับเบิลคลิกใช้ได้เลย ไม่ต้องติดตั้ง เก็บลงแฟลชไดรฟ์ได้ |
-| `VTuber Schedule Setup <version>.exe` | ตัวติดตั้งปกติ (NSIS) — เลือกโฟลเดอร์ติดตั้งได้ มี shortcut ให้ |
 
 รองรับ Windows x64
+
+> อยากได้ตัวติดตั้งแบบ NSIS (เลือกโฟลเดอร์ติดตั้ง + สร้าง shortcut) build เองได้ด้วย `npm run build` — จะได้ทั้ง portable และ Setup ในโฟลเดอร์ `release/`
 
 > Windows SmartScreen อาจเตือนเพราะไฟล์ยังไม่ได้เซ็น code-signing certificate — กด **More info → Run anyway** ได้
 
