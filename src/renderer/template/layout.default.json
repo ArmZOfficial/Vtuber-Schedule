@@ -1,0 +1,165 @@
+{
+  "id": "sakura-diary",
+  "name": "Sakura Diary",
+  "source": "For prompt app/theme1.psd",
+  "canvas": {
+    "w": 4001,
+    "h": 2251
+  },
+  "palette": {
+    "dayOnline": "#E8AABF",
+    "dayOffline": "#D887A2",
+    "time": "#E8AABF",
+    "subtitle": "#D887A2",
+    "offlineText": "#F7D7E4",
+    "weekOfText": "#F7D0DF",
+    "titleTop": "#E8AABF",
+    "titleBottom": "#D887A2",
+    "artCredit": "#D887A2"
+  },
+  "images": {
+    "background": {
+      "x": 0,
+      "y": -24,
+      "w": 4001,
+      "h": 2275,
+      "src": "template/Background.png"
+    },
+    "panel": {
+      "x": 1608,
+      "y": 183,
+      "w": 2149,
+      "h": 2068,
+      "src": "template/Rectangle.png"
+    },
+    "frame": {
+      "x": 361,
+      "y": 276,
+      "w": 1463,
+      "h": 1835,
+      "src": "template/Frame.png"
+    },
+    "placeholder": {
+      "x": 372,
+      "y": 286,
+      "w": 1400,
+      "h": 1760,
+      "src": "template/place-holder.png"
+    },
+    "titleFlowers": {
+      "x": 2081,
+      "y": 344,
+      "w": 1003,
+      "h": 270,
+      "src": "template/Title_flowers.png"
+    },
+    "weekRibbon": {
+      "x": 3245,
+      "y": 140,
+      "w": 200,
+      "h": 458,
+      "src": "template/Week-of_Capa-46.png"
+    },
+    "designCredit": {
+      "x": 3914,
+      "y": 882,
+      "w": 41,
+      "h": 685,
+      "src": "template/design-credit.png"
+    }
+  },
+  "title": {
+    "top": {
+      "x": 2057,
+      "y": 383.8,
+      "w": 595,
+      "h": 107,
+      "size": 145.51,
+      "rotation": -7
+    },
+    "bottom": {
+      "x": 2200,
+      "y": 492,
+      "w": 785,
+      "h": 107,
+      "size": 145.51
+    }
+  },
+  "weekOf": {
+    "label": {
+      "x": 3274,
+      "y": 337,
+      "w": 145,
+      "h": 23,
+      "size": 30.8
+    },
+    "dates": {
+      "x": 3274,
+      "y": 381,
+      "w": 144,
+      "h": 84,
+      "size": 43.59
+    }
+  },
+  "artCredit": {
+    "x": 558.82,
+    "baseline": 378.04,
+    "size": 39.69,
+    "rotation": -9.19
+  },
+  "rowTops": [
+    718,
+    929,
+    1133,
+    1338,
+    1549,
+    1754,
+    1965
+  ],
+  "row": {
+    "dayName": {
+      "x": 1852,
+      "dy": 0,
+      "size": 59.16,
+      "upper": true
+    },
+    "bullet": {
+      "dy": -0.29,
+      "w": 44,
+      "h": 45,
+      "gap": 18.86,
+      "src": "template/Sunday_Offline_Capa-8.png"
+    },
+    "dash": {
+      "dy": 17.57,
+      "h": 7,
+      "gap": 16.86,
+      "right": 3113.71,
+      "src": "template/Sunday_Offline_Capa-9.png"
+    },
+    "time": {
+      "dy": -0.57,
+      "right": 3415,
+      "size": 55.3
+    },
+    "subtitle": {
+      "x": 1851,
+      "dy": 78.57,
+      "size": 56.72
+    },
+    "ribbon": {
+      "x": 3132.29,
+      "dy": -15.29,
+      "w": 311,
+      "h": 70,
+      "src": "template/Sunday_Offline_Capa-13.png"
+    },
+    "offlineText": {
+      "x": 3174.29,
+      "dy": -1,
+      "w": 225,
+      "size": 55.3,
+      "upper": true
+    }
+  }
+}

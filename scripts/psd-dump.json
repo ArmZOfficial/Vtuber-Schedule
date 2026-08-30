@@ -1,0 +1,2565 @@
+{
+  "canvas": {
+    "width": 4001,
+    "height": 2251
+  },
+  "layers": [
+    {
+      "z": 0,
+      "path": "Background",
+      "name": "Background",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 0,
+      "top": -24,
+      "right": 4001,
+      "bottom": 2251,
+      "w": 4001,
+      "h": 2275
+    },
+    {
+      "z": 1,
+      "path": "plase don't delete this u.u",
+      "name": "plase don't delete this u.u",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3914,
+      "top": 882,
+      "right": 3955,
+      "bottom": 1567,
+      "w": 41,
+      "h": 685
+    },
+    {
+      "z": 2,
+      "path": "Rectangle",
+      "name": "Rectangle",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1608,
+      "top": 183,
+      "right": 3757,
+      "bottom": 2251,
+      "w": 2149,
+      "h": 2068
+    },
+    {
+      "z": 3,
+      "path": "Sunday",
+      "name": "Sunday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 4,
+      "path": "Sunday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 5,
+      "path": "Sunday / Offline / Capa 13",
+      "name": "Capa 13",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 1951,
+      "right": 3442,
+      "bottom": 2021,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 6,
+      "path": "Sunday / Offline / Capa 9",
+      "name": "Capa 9",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2182,
+      "top": 1982,
+      "right": 3119,
+      "bottom": 1990,
+      "w": 937,
+      "h": 8
+    },
+    {
+      "z": 7,
+      "path": "Sunday / Offline / Capa 8",
+      "name": "Capa 8",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2124,
+      "top": 1965,
+      "right": 2168,
+      "bottom": 2009,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 8,
+      "path": "Sunday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 2043,
+      "right": 2201,
+      "bottom": 2095,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 9,
+      "path": "Sunday / Offline / OFFLINE",
+      "name": "OFFLINE",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 1965,
+      "right": 3398,
+      "bottom": 2006,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 10,
+      "path": "Sunday / Offline / Sunday",
+      "name": "Sunday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1854,
+      "top": 1965,
+      "right": 2101,
+      "bottom": 2009,
+      "w": 247,
+      "h": 44,
+      "text": {
+        "value": "Sunday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 11,
+      "path": "Sunday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 12,
+      "path": "Sunday / Online / Capa 9",
+      "name": "Capa 9",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2182,
+      "top": 1982,
+      "right": 3119,
+      "bottom": 1990,
+      "w": 937,
+      "h": 8
+    },
+    {
+      "z": 13,
+      "path": "Sunday / Online / Capa 8",
+      "name": "Capa 8",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2124,
+      "top": 1965,
+      "right": 2168,
+      "bottom": 2009,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 14,
+      "path": "Sunday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 2043,
+      "right": 2376,
+      "bottom": 2095,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 15,
+      "path": "Sunday / Online / Sunday",
+      "name": "Sunday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1854,
+      "top": 1965,
+      "right": 2101,
+      "bottom": 2009,
+      "w": 247,
+      "h": 44,
+      "text": {
+        "value": "Sunday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 235.88775,
+          "g": 184.77554999999998,
+          "b": 201.8886
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 16,
+      "path": "Sunday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 1967,
+      "right": 3415,
+      "bottom": 2008,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15725.583333333334
+        ]
+      }
+    },
+    {
+      "z": 17,
+      "path": "Saturday",
+      "name": "Saturday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 18,
+      "path": "Saturday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 19,
+      "path": "Saturday / Offline / Capa 27",
+      "name": "Capa 27",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2251,
+      "top": 1772,
+      "right": 3119,
+      "bottom": 1779,
+      "w": 868,
+      "h": 7
+    },
+    {
+      "z": 20,
+      "path": "Saturday / Offline / Capa 26",
+      "name": "Capa 26",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2193,
+      "top": 1754,
+      "right": 2237,
+      "bottom": 1798,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 21,
+      "path": "Saturday / Offline / Capa 19 copia",
+      "name": "Capa 19 copia",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 1737,
+      "right": 3442,
+      "bottom": 1807,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 22,
+      "path": "Saturday / Offline / OFFLINE ",
+      "name": "OFFLINE ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 1752,
+      "right": 3398,
+      "bottom": 1793,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15735.583333333334
+        ]
+      }
+    },
+    {
+      "z": 23,
+      "path": "Saturday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1833,
+      "right": 2201,
+      "bottom": 1885,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 24,
+      "path": "Saturday / Offline / Saturday",
+      "name": "Saturday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1854,
+      "top": 1754,
+      "right": 2175,
+      "bottom": 1798,
+      "w": 321,
+      "h": 44,
+      "text": {
+        "value": "Saturday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 215.99775,
+          "g": 135.0021,
+          "b": 161.9964
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 25,
+      "path": "Saturday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 26,
+      "path": "Saturday / Online / Capa 27",
+      "name": "Capa 27",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2251,
+      "top": 1772,
+      "right": 3119,
+      "bottom": 1779,
+      "w": 868,
+      "h": 7
+    },
+    {
+      "z": 27,
+      "path": "Saturday / Online / Capa 26",
+      "name": "Capa 26",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2193,
+      "top": 1754,
+      "right": 2237,
+      "bottom": 1798,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 28,
+      "path": "Saturday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1833,
+      "right": 2376,
+      "bottom": 1885,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 29,
+      "path": "Saturday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 1755,
+      "right": 3415,
+      "bottom": 1796,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 30,
+      "path": "Saturday / Online / Saturday",
+      "name": "Saturday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1854,
+      "top": 1754,
+      "right": 2175,
+      "bottom": 1798,
+      "w": 321,
+      "h": 44,
+      "text": {
+        "value": "Saturday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 31,
+      "path": "Friday",
+      "name": "Friday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 32,
+      "path": "Friday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 33,
+      "path": "Friday / Offline / Capa 19",
+      "name": "Capa 19",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 1535,
+      "right": 3442,
+      "bottom": 1605,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 34,
+      "path": "Friday / Offline / Capa 15",
+      "name": "Capa 15",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2143,
+      "top": 1567,
+      "right": 3114,
+      "bottom": 1574,
+      "w": 971,
+      "h": 7
+    },
+    {
+      "z": 35,
+      "path": "Friday / Offline / Capa 14",
+      "name": "Capa 14",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2083,
+      "top": 1549,
+      "right": 2127,
+      "bottom": 1593,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 36,
+      "path": "Friday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1628,
+      "right": 2201,
+      "bottom": 1680,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 37,
+      "path": "Friday / Offline / OFFLINE",
+      "name": "OFFLINE",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 1550,
+      "right": 3398,
+      "bottom": 1591,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 38,
+      "path": "Friday / Offline / Friday",
+      "name": "Friday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1856,
+      "top": 1549,
+      "right": 2067,
+      "bottom": 1593,
+      "w": 211,
+      "h": 44,
+      "text": {
+        "value": "Friday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 39,
+      "path": "Friday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 40,
+      "path": "Friday / Online / Capa 15",
+      "name": "Capa 15",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2143,
+      "top": 1567,
+      "right": 3114,
+      "bottom": 1574,
+      "w": 971,
+      "h": 7
+    },
+    {
+      "z": 41,
+      "path": "Friday / Online / Capa 14",
+      "name": "Capa 14",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2083,
+      "top": 1549,
+      "right": 2127,
+      "bottom": 1593,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 42,
+      "path": "Friday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1628,
+      "right": 2376,
+      "bottom": 1680,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 43,
+      "path": "Friday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 1544,
+      "right": 3415,
+      "bottom": 1585,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15732.583333333334
+        ]
+      }
+    },
+    {
+      "z": 44,
+      "path": "Friday / Online / Friday",
+      "name": "Friday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1856,
+      "top": 1549,
+      "right": 2067,
+      "bottom": 1593,
+      "w": 211,
+      "h": 44,
+      "text": {
+        "value": "Friday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.99645,
+          "g": 169.9983,
+          "b": 191.0001
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 45,
+      "path": "Thursday",
+      "name": "Thursday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 46,
+      "path": "Thursday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 47,
+      "path": "Thursday / Offline / Thursday ",
+      "name": "Thursday ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1849,
+      "top": 1338,
+      "right": 2179,
+      "bottom": 1382,
+      "w": 330,
+      "h": 44,
+      "text": {
+        "value": "Thursday ",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 215.99775,
+          "g": 135.0021,
+          "b": 161.9964
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 48,
+      "path": "Thursday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1417,
+      "right": 2201,
+      "bottom": 1469,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 49,
+      "path": "Thursday / Offline / Capa 32",
+      "name": "Capa 32",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2253,
+      "top": 1356,
+      "right": 3119,
+      "bottom": 1363,
+      "w": 866,
+      "h": 7
+    },
+    {
+      "z": 50,
+      "path": "Thursday / Offline / Caapa 31",
+      "name": "Caapa 31",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2197,
+      "top": 1338,
+      "right": 2241,
+      "bottom": 1382,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 51,
+      "path": "Thursday / Offline / Capa 25 copia 2",
+      "name": "Capa 25 copia 2",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 1321,
+      "right": 3442,
+      "bottom": 1391,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 52,
+      "path": "Thursday / Offline / OFFLINE ",
+      "name": "OFFLINE ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 1335,
+      "right": 3398,
+      "bottom": 1376,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15531.583333333334
+        ]
+      }
+    },
+    {
+      "z": 53,
+      "path": "Thursday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 54,
+      "path": "Thursday / Online / Thursday ",
+      "name": "Thursday ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1849,
+      "top": 1338,
+      "right": 2179,
+      "bottom": 1382,
+      "w": 330,
+      "h": 44,
+      "text": {
+        "value": "Thursday ",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 55,
+      "path": "Thursday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 1339,
+      "right": 3415,
+      "bottom": 1380,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 56,
+      "path": "Thursday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1417,
+      "right": 2376,
+      "bottom": 1469,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 57,
+      "path": "Thursday / Online / Capa 32",
+      "name": "Capa 32",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2253,
+      "top": 1356,
+      "right": 3119,
+      "bottom": 1363,
+      "w": 866,
+      "h": 7
+    },
+    {
+      "z": 58,
+      "path": "Thursday / Online / Capa 31",
+      "name": "Capa 31",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2197,
+      "top": 1338,
+      "right": 2241,
+      "bottom": 1382,
+      "w": 44,
+      "h": 44
+    },
+    {
+      "z": 59,
+      "path": "Wednesday",
+      "name": "Wednesday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 60,
+      "path": "Wednesday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 61,
+      "path": "Wednesday / Offline / Wednesday",
+      "name": "Wednesday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1850,
+      "top": 1133,
+      "right": 2236,
+      "bottom": 1177,
+      "w": 386,
+      "h": 44,
+      "text": {
+        "value": "Wednesday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 215.99775,
+          "g": 135.0021,
+          "b": 161.9964
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 62,
+      "path": "Wednesday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1212,
+      "right": 2201,
+      "bottom": 1264,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 63,
+      "path": "Wednesday / Offline / Capa 37",
+      "name": "Capa 37",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2322,
+      "top": 1151,
+      "right": 3103,
+      "bottom": 1158,
+      "w": 781,
+      "h": 7
+    },
+    {
+      "z": 64,
+      "path": "Wednesday / Offline / Capa 36",
+      "name": "Capa 36",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2256,
+      "top": 1133,
+      "right": 2300,
+      "bottom": 1178,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 65,
+      "path": "Wednesday / Offline / Capa 25 copia",
+      "name": "Capa 25 copia",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 1116,
+      "right": 3442,
+      "bottom": 1186,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 66,
+      "path": "Wednesday / Offline / OFFLINE ",
+      "name": "OFFLINE ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 1130,
+      "right": 3398,
+      "bottom": 1171,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15736.583333333334
+        ]
+      }
+    },
+    {
+      "z": 67,
+      "path": "Wednesday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 68,
+      "path": "Wednesday / Online / Wednesday",
+      "name": "Wednesday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1850,
+      "top": 1133,
+      "right": 2236,
+      "bottom": 1177,
+      "w": 386,
+      "h": 44,
+      "text": {
+        "value": "Wednesday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 69,
+      "path": "Wednesday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 1134,
+      "right": 3415,
+      "bottom": 1175,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 70,
+      "path": "Wednesday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1212,
+      "right": 2376,
+      "bottom": 1264,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 71,
+      "path": "Wednesday / Online / Capa 37",
+      "name": "Capa 37",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2322,
+      "top": 1151,
+      "right": 3103,
+      "bottom": 1158,
+      "w": 781,
+      "h": 7
+    },
+    {
+      "z": 72,
+      "path": "Wednesday / Online / Capa 36",
+      "name": "Capa 36",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2256,
+      "top": 1133,
+      "right": 2300,
+      "bottom": 1178,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 73,
+      "path": "Tuesday",
+      "name": "Tuesday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 74,
+      "path": "Tuesday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 75,
+      "path": "Tuesday / Offline / Capa 25",
+      "name": "Capa 25",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3131,
+      "top": 915,
+      "right": 3442,
+      "bottom": 985,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 76,
+      "path": "Tuesday / Offline / Capa 21",
+      "name": "Capa 21",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2203,
+      "top": 946,
+      "right": 3111,
+      "bottom": 953,
+      "w": 908,
+      "h": 7
+    },
+    {
+      "z": 77,
+      "path": "Tuesday / Offline / Capa 20",
+      "name": "Capa 20",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2139,
+      "top": 928,
+      "right": 2183,
+      "bottom": 973,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 78,
+      "path": "Tuesday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1007,
+      "right": 2201,
+      "bottom": 1059,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 79,
+      "path": "Tuesday / Offline / OFFLINE",
+      "name": "OFFLINE",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3173,
+      "top": 929,
+      "right": 3398,
+      "bottom": 970,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 80,
+      "path": "Tuesday / Offline / Tuesday",
+      "name": "Tuesday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1849,
+      "top": 929,
+      "right": 2127,
+      "bottom": 973,
+      "w": 278,
+      "h": 44,
+      "text": {
+        "value": "Tuesday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 81,
+      "path": "Tuesday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 82,
+      "path": "Tuesday / Online / Capa 21",
+      "name": "Capa 21",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2203,
+      "top": 946,
+      "right": 3111,
+      "bottom": 953,
+      "w": 908,
+      "h": 7
+    },
+    {
+      "z": 83,
+      "path": "Tuesday / Online / Capa 20",
+      "name": "Capa 20",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2139,
+      "top": 928,
+      "right": 2183,
+      "bottom": 973,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 84,
+      "path": "Tuesday / Online / Example title here",
+      "name": "Example title here",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 1007,
+      "right": 2376,
+      "bottom": 1059,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 85,
+      "path": "Tuesday / Online / Tuesday",
+      "name": "Tuesday",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1849,
+      "top": 929,
+      "right": 2127,
+      "bottom": 973,
+      "w": 278,
+      "h": 44,
+      "text": {
+        "value": "Tuesday",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.1626,
+          "g": 170.33235,
+          "b": 191.3367
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 86,
+      "path": "Tuesday / Online / 10:00 PM ",
+      "name": "10:00 PM ",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 925,
+      "right": 3415,
+      "bottom": 966,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15730.583333333334
+        ]
+      }
+    },
+    {
+      "z": 87,
+      "path": "Monday",
+      "name": "Monday",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 88,
+      "path": "Monday / Offline",
+      "name": "Offline",
+      "group": true,
+      "hidden": true,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 89,
+      "path": "Monday / Offline / Capa 42",
+      "name": "Capa 42",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2203,
+      "top": 735,
+      "right": 3111,
+      "bottom": 742,
+      "w": 908,
+      "h": 7
+    },
+    {
+      "z": 90,
+      "path": "Monday / Offline / Capa 47",
+      "name": "Capa 47",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2139,
+      "top": 717,
+      "right": 2183,
+      "bottom": 762,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 91,
+      "path": "Monday / Offline / Capa 48",
+      "name": "Capa 48",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3140,
+      "top": 704,
+      "right": 3451,
+      "bottom": 774,
+      "w": 311,
+      "h": 70
+    },
+    {
+      "z": 92,
+      "path": "Monday / Offline / OFFLINE",
+      "name": "OFFLINE",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3182,
+      "top": 718,
+      "right": 3407,
+      "bottom": 759,
+      "w": 225,
+      "h": 41,
+      "text": {
+        "value": "OFFLINE",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 215.0007,
+          "b": 228.00060000000002
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19293.583333333336,
+          -16148.583333333336
+        ]
+      }
+    },
+    {
+      "z": 93,
+      "path": "Monday / Offline / MONDAY",
+      "name": "MONDAY",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1852,
+      "top": 718,
+      "right": 2114,
+      "bottom": 762,
+      "w": 262,
+      "h": 44,
+      "text": {
+        "value": "MONDAY",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 215.99775,
+          "g": 135.0021,
+          "b": 161.9964
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 94,
+      "path": "Monday / Offline / Day off, sorry!",
+      "name": "Day off, sorry!",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 796,
+      "right": 2201,
+      "bottom": 848,
+      "w": 350,
+      "h": 52,
+      "text": {
+        "value": "Day off, sorry!",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 95,
+      "path": "Monday / Online",
+      "name": "Online",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 96,
+      "path": "Monday / Online / MONDAY",
+      "name": "MONDAY",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1852,
+      "top": 718,
+      "right": 2114,
+      "bottom": 762,
+      "w": 262,
+      "h": 44,
+      "text": {
+        "value": "MONDAY",
+        "font": "Nunito-ExtraBold",
+        "size": 28.3983,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 97,
+      "path": "Monday / Online / 10:00 PM",
+      "name": "10:00 PM",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3176,
+      "top": 718,
+      "right": 3415,
+      "bottom": 759,
+      "w": 239,
+      "h": 41,
+      "text": {
+        "value": "10:00 PM",
+        "font": "Nunito-ExtraBold",
+        "size": 26.54454,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 98,
+      "path": "Monday / Online / Example stream title",
+      "name": "Example stream title",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 1851,
+      "top": 796,
+      "right": 2376,
+      "bottom": 848,
+      "w": 525,
+      "h": 52,
+      "text": {
+        "value": "Example stream title",
+        "font": "Nunito-Medium",
+        "size": 27.2273,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333336
+        ]
+      }
+    },
+    {
+      "z": 99,
+      "path": "Monday / Online / Capa 42",
+      "name": "Capa 42",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2203,
+      "top": 735,
+      "right": 3111,
+      "bottom": 742,
+      "w": 908,
+      "h": 7
+    },
+    {
+      "z": 100,
+      "path": "Monday / Online / Capa 41",
+      "name": "Capa 41",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2139,
+      "top": 717,
+      "right": 2183,
+      "bottom": 762,
+      "w": 44,
+      "h": 45
+    },
+    {
+      "z": 101,
+      "path": "Title",
+      "name": "Title",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 102,
+      "path": "Title / Schedule",
+      "name": "Schedule",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2200,
+      "top": 492,
+      "right": 2985,
+      "bottom": 599,
+      "w": 785,
+      "h": 107,
+      "text": {
+        "value": "Schedule",
+        "font": "Nunito-Black",
+        "size": 69.84551,
+        "fillColor": {
+          "r": 216.0003,
+          "g": 134.99955,
+          "b": 161.99895
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 103,
+      "path": "Title / weekly",
+      "name": "weekly",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2057,
+      "top": 310,
+      "right": 2652,
+      "bottom": 490,
+      "w": 595,
+      "h": 180,
+      "text": {
+        "value": "weekly",
+        "font": "Nunito-Black",
+        "size": 69.84551,
+        "fillColor": {
+          "r": 231.99900000000002,
+          "g": 170.00084999999999,
+          "b": 191.0001
+        },
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 104,
+      "path": "Title / flowers",
+      "name": "flowers",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 2081,
+      "top": 344,
+      "right": 3084,
+      "bottom": 614,
+      "w": 1003,
+      "h": 270
+    },
+    {
+      "z": 105,
+      "path": "Week of",
+      "name": "Week of",
+      "group": true,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "pass through",
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "w": 0,
+      "h": 0
+    },
+    {
+      "z": 106,
+      "path": "Week of / Capa 46",
+      "name": "Capa 46",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3245,
+      "top": 140,
+      "right": 3445,
+      "bottom": 598,
+      "w": 200,
+      "h": 458
+    },
+    {
+      "z": 107,
+      "path": "Week of / 01.04 / 08.04",
+      "name": "01.04 / 08.04",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3274,
+      "top": 381,
+      "right": 3418,
+      "bottom": 465,
+      "w": 144,
+      "h": 84,
+      "text": {
+        "value": "01.04 /\n08.04",
+        "font": "Nunito-Black",
+        "size": 20.9224,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 208.00095000000002,
+          "b": 223.00005000000002
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333336,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 108,
+      "path": "Week of / WEEK OF",
+      "name": "WEEK OF",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 3274,
+      "top": 337,
+      "right": 3419,
+      "bottom": 360,
+      "w": 145,
+      "h": 23,
+      "text": {
+        "value": "WEEK OF",
+        "font": "Nunito-Black",
+        "size": 14.78308,
+        "fillColor": {
+          "r": 247.00065,
+          "g": 208.00095000000002,
+          "b": 223.00005000000002
+        },
+        "justification": "left",
+        "transform": [
+          2.0833333333333335,
+          0,
+          0,
+          2.0833333333333335,
+          -19302.583333333332,
+          -15937.583333333334
+        ]
+      }
+    },
+    {
+      "z": 109,
+      "path": "Art by: @username",
+      "name": "Art by: @username",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 382,
+      "top": 331,
+      "right": 734,
+      "bottom": 407,
+      "w": 352,
+      "h": 76,
+      "text": {
+        "value": "Art by: @username",
+        "size": 100,
+        "fillColor": {
+          "r": 215.99775,
+          "g": 135.0021,
+          "b": 161.9964
+        },
+        "justification": "center",
+        "transform": [
+          0.3918392867982951,
+          -0.06342157733153068,
+          0.06342157733153037,
+          0.39183928679828955,
+          558.8219978788568,
+          378.0439181761116
+        ]
+      }
+    },
+    {
+      "z": 110,
+      "path": "place holder",
+      "name": "place holder",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 372,
+      "top": 286,
+      "right": 1772,
+      "bottom": 2046,
+      "w": 1400,
+      "h": 1760
+    },
+    {
+      "z": 111,
+      "path": "PLACE YOUR ART HERE",
+      "name": "PLACE YOUR ART HERE",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 359,
+      "top": 277,
+      "right": 1787,
+      "bottom": 2068,
+      "w": 1428,
+      "h": 1791
+    },
+    {
+      "z": 112,
+      "path": "Frame",
+      "name": "Frame",
+      "group": false,
+      "hidden": false,
+      "opacity": 1,
+      "blendMode": "normal",
+      "left": 361,
+      "top": 276,
+      "right": 1824,
+      "bottom": 2111,
+      "w": 1463,
+      "h": 1835
+    }
+  ]
+}

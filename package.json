@@ -1,0 +1,87 @@
+{
+  "name": "vtuber-schedule-app",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Modern VTuber Weekly Schedule Generator",
+  "author": "VTuber Schedule Team",
+  "type": "module",
+  "main": "dist-electron/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && electron-builder",
+    "lint": "oxlint",
+    "psd:dump": "node scripts/extract-psd.mjs",
+    "psd:layers": "node scripts/extract-layers.mjs",
+    "psd:layout": "node scripts/build-layout.mjs",
+    "psd:all": "npm run psd:dump && npm run psd:layers && npm run psd:layout",
+    "preview": "vite preview"
+  },
+  "build": {
+    "appId": "com.vtuberschedule.app",
+    "productName": "VTuber Schedule",
+    "directories": {
+      "output": "release"
+    },
+    "publish": null,
+    "asar": true,
+    "compression": "maximum",
+    "removePackageScripts": true,
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "portable": {
+      "artifactName": "${productName} ${version} portable.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "!**/*.map",
+      "!**/*.ts"
+    ]
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.2.20",
+    "@radix-ui/react-dialog": "^1.1.23",
+    "@radix-ui/react-select": "^2.3.7",
+    "@radix-ui/react-slider": "^1.4.7",
+    "@radix-ui/react-switch": "^1.3.7",
+    "@radix-ui/react-tooltip": "^1.2.16",
+    "electron-store": "^11.0.2",
+    "electron-updater": "^6.8.9",
+    "gif.js": "^0.2.0",
+    "idb-keyval": "^6.3.0",
+    "konva": "^10.3.1",
+    "lucide-react": "^1.33.0",
+    "node-cron": "^4.6.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-konva": "^19.2.5",
+    "simple-icons": "^16.28.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/gif.js": "^0.2.5",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.4",
+    "ag-psd": "^31.0.2",
+    "electron": "^43.4.1",
+    "electron-builder": "^26.15.3",
+    "oxlint": "^1.75.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.0",
+    "vite-plugin-electron": "^1.1.1",
+    "vite-plugin-electron-renderer": "^1.0.0"
+  }
+}

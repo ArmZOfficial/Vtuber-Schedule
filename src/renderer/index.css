@@ -1,0 +1,336 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Quiet Studio — design tokens (แผน UX/UI ข้อ 5)
+
+   chrome รอบนอก (titlebar / rail / พื้นพรีวิว) เป็นเทากลางไร้ hue เพื่อไม่ให้
+   สายตาถูกหลอกตอนตัดสินสีการ์ด · ข้างใน panel นุ่มขึ้นด้วย radius + ระยะห่าง
+   ══════════════════════════════════════════════════════════════════════════ */
+@theme {
+  /* ── พื้นผิว 5 ขั้น ── */
+  --color-canvas: #f5f5f4;
+  --color-surface: #ffffff;
+  --color-raised: #ececea;
+  --color-sunken: #dedbd6;
+  --color-line: #e2e0dc;
+  --color-line-strong: #8a867f;
+
+  /* ── ตัวอักษร 4 ขั้น ── */
+  --color-ink: #1c1b19;
+  --color-ink-muted: #57534e;
+  --color-ink-faint: #69645e;
+  --color-ink-disabled: #a8a29e;
+
+  /* ── accent ── */
+  --color-accent: #4f46e5;
+  --color-accent-strong: #4338ca;
+  --color-accent-soft: #eef2ff;
+  /* ตัวอักษร/ไอคอนบนพื้น accent-strong */
+  --color-on-accent: #ffffff;
+
+  /* ── สถานะ ── */
+  --color-ok: #146c34;
+  --color-warn: #9a4708;
+  --color-danger: #b91c1c;
+  --color-special: #be185d;
+
+  /* ── เงา 3 ระดับ ── */
+  --shadow-raised: 0 1px 2px rgb(0 0 0 / .06), 0 1px 3px rgb(0 0 0 / .04);
+  --shadow-overlay: 0 8px 24px -6px rgb(0 0 0 / .16), 0 2px 6px -2px rgb(0 0 0 / .08);
+  --shadow-stage: 0 12px 32px -10px rgb(0 0 0 / .28);
+
+  /* ── สเกลระยะ 6 ขั้น (ตรงกับ p-1/2/3/4/6/8 ของ Tailwind) ── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* ── ความสูงของ control 3 ขั้น ── */
+  --control-sm: 28px;
+  --control-md: 34px;
+  --control-lg: 40px;
+
+  /* ── ขนาดตัวอักษร 5 ขั้น ── */
+  --text-micro: 11px;
+  --text-label: 12px;
+  --text-body: 13px;
+  --text-title: 15px;
+  --text-head: 18px;
+
+  /* ── radius ── */
+  --radius-btn: 8px;
+  --radius-card: 12px;
+  --radius-panel: 16px;
+
+  /* ── ฟอนต์ — ไทยกับอังกฤษอยู่ในสแตกเดียวกัน ความสูงบรรทัดจึงไม่กระโดดตอนสลับภาษา ── */
+  --font-display: "Plus Jakarta Sans", "Inter", "IBM Plex Sans Thai", system-ui, sans-serif;
+  --font-ui: "Plus Jakarta Sans", "Inter", "IBM Plex Sans Thai", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+.dark {
+  --color-canvas: #16161a;
+  --color-surface: #1e1e23;
+  --color-raised: #2a2a30;
+  --color-sunken: #0f0f12;
+  --color-line: #34343b;
+  --color-line-strong: #6a6a75;
+
+  --color-ink: #f4f4f5;
+  --color-ink-muted: #b6b6bd;
+  --color-ink-faint: #9a9aa3;
+  --color-ink-disabled: #5c5c65;
+
+  --color-accent: #8f99fa;
+  --color-accent-strong: #5457e8;
+  --color-accent-soft: rgb(143 153 250 / .16);
+
+  --color-ok: #4ade80;
+  --color-warn: #fbbf24;
+  --color-danger: #f87171;
+  --color-special: #f472b6;
+
+  --shadow-raised: 0 1px 2px rgb(0 0 0 / .40);
+  --shadow-overlay: 0 12px 32px -8px rgb(0 0 0 / .60);
+  --shadow-stage: 0 16px 40px -12px rgb(0 0 0 / .70);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+  font-size: var(--text-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.titlebar-drag {
+  -webkit-app-region: drag;
+}
+
+.titlebar-nodrag {
+  -webkit-app-region: no-drag;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
+/* ── focus ring — radius ตามรูปของสิ่งที่โฟกัส ไม่บังคับ 10px (แผนข้อ 9.4) ── */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: inherit;
+}
+
+/* ── input โค้งมนเข้าชุดกัน (ค่า default ของ browser มุมเหลี่ยม) ───────── */
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="text"],
+input[type="color"],
+select,
+textarea {
+  border-radius: var(--radius-btn);
+}
+
+/* ── scrollbar บางๆ ตามโทนธีม ─────────────────────────────────────────── */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-line-strong) 55%, transparent);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--color-line-strong);
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* input date/time ต้องตามธีมของแอป ไม่ใช่ค้างที่ dark ตลอด */
+input[type="date"],
+input[type="time"] {
+  color-scheme: light;
+}
+
+.dark input[type="date"],
+.dark input[type="time"] {
+  color-scheme: dark;
+}
+
+input[type="color"] {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 2px;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 8px;
+}
+
+/* ══ พื้นโรงถ่าย — ตารางหมากรุกบาง ๆ ให้เห็นขอบโปร่งใสของการ์ดจริง (ข้อ 7.5.2) ══ */
+.stage-checker {
+  background-color: var(--color-surface);
+  background-image:
+    linear-gradient(45deg, var(--color-raised) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--color-raised) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--color-raised) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--color-raised) 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
+
+/* กรอบพื้นที่ปลอดภัย — เส้นประบาง ๆ ทับบนการ์ด ไม่กินคลิก */
+.stage-safe-area {
+  outline: 1px dashed color-mix(in srgb, var(--color-accent) 70%, transparent);
+  outline-offset: -1px;
+}
+
+/* ── Motion (แผนข้อ 9.2) — 120ms ปุ่ม · 180ms panel · 240ms modal ───────── */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-toast-in {
+  animation: toast-in 240ms ease-out;
+}
+
+@keyframes toast-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.anim-toast-out {
+  animation: toast-out 180ms ease-in forwards;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(16px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.anim-sheet-up {
+  animation: sheet-up 240ms ease-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.anim-fade-in {
+  animation: fade-in 180ms ease-out;
+}
+
+/* แผงข้างสไลด์เข้ามาแทนที่เนื้อหาแท็บ (โหมดแก้วัน ข้อ 7.6) */
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.anim-slide-in {
+  animation: slide-in-right 180ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .anim-toast-in,
+  .anim-sheet-up,
+  .anim-slide-in {
+    animation: none;
+  }
+}
+
+/* ── Radix portal — render นอก DOM tree ปกติ ต้องอัปเดตพร้อม token (ข้อ 12.5) ── */
+.radix-tooltip,
+.radix-select-content,
+.radix-popover {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line-strong);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-overlay);
+}
+
+/* ── mobile safe area for bottom tab bar ────────────────────────────── */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .mobile-tab-bar {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* ── เป้าคลิกขั้นต่ำ 32px โดยไม่เปลี่ยนขนาดที่ตาเห็น (แผนข้อ 9.7) ─────────
+   ปุ่มไอคอนขนาด sm สูง 28px ตาม --control-sm ซึ่งต่ำกว่าเกณฑ์เป้าคลิก การขยาย
+   token ให้เป็น 32px จะดัน titlebar 36px และ HUD ซูมจนอึดอัด จึงขยายเฉพาะ
+   "พื้นที่ที่กดโดน" ด้วยชั้นซ้อนที่ไม่กินที่ในเลย์เอาต์ ปุ่มยังดูกะทัดรัดเท่าเดิม
+
+   ปุ่มที่วางติดกันต้องเว้นระยะอย่างน้อย 4px ไม่งั้นพื้นที่กดจะทับกันและกดโดนปุ่มข้าง ๆ */
+.tap-min {
+  position: relative;
+}
+
+.tap-min::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max(100%, 32px);
+  height: max(100%, 32px);
+  transform: translate(-50%, -50%);
+}
