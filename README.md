@@ -19,6 +19,15 @@
 > อยากได้ตัวติดตั้งแบบ NSIS (เลือกโฟลเดอร์ติดตั้ง + สร้าง shortcut) build เองได้ด้วย `npm run build` — จะได้ทั้ง portable และ Setup ในโฟลเดอร์ `release/`
 
 > Windows SmartScreen อาจเตือนเพราะไฟล์ยังไม่ได้เซ็น code-signing certificate — กด **More info → Run anyway** ได้
+> รายละเอียดว่าทำไมยังไม่เซ็นและแผนที่จะเซ็น อ่านได้ที่ [`docs/code-signing.md`](docs/code-signing.md)
+
+### ตรวจสอบว่าไฟล์ไม่ถูกดัดแปลง
+
+เทียบค่า SHA-256 ของไฟล์ที่โหลดมากับค่าที่ประกาศไว้ในหน้า release
+
+```powershell
+Get-FileHash "VTuber.Schedule.0.0.1.portable.exe" -Algorithm SHA256
+```
 
 ---
 
@@ -116,7 +125,21 @@ docs/               # บันทึกความคืบหน้างา�
 
 - [`ux-ui-redesign-plan.md`](ux-ui-redesign-plan.md) — แผน redesign UX/UI ฉบับเต็ม
 - [`docs/redesign-progress.md`](docs/redesign-progress.md) — สถานะงานล่าสุดว่าทำถึงไหนแล้ว
+- [`docs/code-signing.md`](docs/code-signing.md) — วิธีเซ็นโปรแกรมให้พ้นคำเตือน SmartScreen
 - [`For prompt app/vtuber-schedule-app-prompt.md`](For%20prompt%20app/vtuber-schedule-app-prompt.md) — spec ต้นทางของแอป
+
+---
+
+## สัญญาอนุญาต
+
+**สงวนลิขสิทธิ์ทั้งหมด (All Rights Reserved)** — ดู [`LICENSE`](LICENSE)
+
+- **ใช้โปรแกรมได้เต็มที่** โหลด `.exe` ไปสร้างตารางของตัวเองได้ทั้งส่วนตัวและเชิงพาณิชย์
+  ภาพที่คุณสร้างเป็นของคุณ
+- **ซอร์สโค้ดเปิดให้ดูเพื่อความโปร่งใสเท่านั้น** ไม่อนุญาตให้คัดลอก ดัดแปลง แจกจ่ายซ้ำ
+  หรือนำไปใช้ในโครงการอื่น หากต้องการใช้งานนอกเหนือจากนี้ กรุณาติดต่อขออนุญาตก่อน
+
+ไลบรารี ฟอนต์ และไอคอนของบุคคลที่สามที่ฝังมาในโปรเจกต์ยังคงอยู่ภายใต้สัญญาอนุญาตของตนเอง
 
 ---
 

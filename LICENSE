@@ -1,0 +1,72 @@
+Copyright (c) 2026 ArmZOfficial. All Rights Reserved.
+
+สงวนลิขสิทธิ์ทั้งหมด
+
+ซอฟต์แวร์นี้และซอร์สโค้ด รวมถึงไฟล์ประกอบทั้งหมดในคลังนี้ เป็นทรัพย์สินของ
+ArmZOfficial แต่เพียงผู้เดียว และได้รับความคุ้มครองตามกฎหมายลิขสิทธิ์
+
+สิ่งที่อนุญาต
+  - ดาวน์โหลดและใช้งานโปรแกรมสำเร็จรูป (ไฟล์ .exe จากหน้า Releases)
+    เพื่อสร้างภาพตารางสตรีมของตนเอง ทั้งเพื่อการส่วนตัวและเชิงพาณิชย์
+  - ภาพที่คุณสร้างจากโปรแกรมนี้เป็นของคุณ นำไปใช้ได้อย่างอิสระ
+
+สิ่งที่ไม่อนุญาต เว้นแต่ได้รับอนุญาตเป็นลายลักษณ์อักษรจากเจ้าของลิขสิทธิ์ก่อน
+  - ทำซ้ำ ดัดแปลง แก้ไข หรือสร้างงานต่อเนื่องจากซอร์สโค้ด
+  - แจกจ่าย เผยแพร่ซ้ำ ขาย ให้เช่า หรือให้อนุญาตช่วงต่อ ไม่ว่าซอร์สโค้ดหรือตัวโปรแกรม
+  - ทำวิศวกรรมย้อนกลับ ถอดรหัส หรือแยกส่วนประกอบของโปรแกรม
+  - นำซอร์สโค้ดหรือส่วนหนึ่งส่วนใดไปใช้ในโครงการอื่น
+
+การเปิดให้เข้าถึงซอร์สโค้ดในคลังสาธารณะนี้มีไว้เพื่อความโปร่งใสและการตรวจสอบ
+เท่านั้น ไม่ถือเป็นการให้สิทธิ์ใด ๆ ตามที่ระบุไว้ข้างต้น
+
+--------------------------------------------------------------------------
+
+ENGLISH
+
+All Rights Reserved.
+
+This software and its source code, including all accompanying files in this
+repository, are the exclusive property of ArmZOfficial and are protected by
+copyright law.
+
+PERMITTED
+  - Downloading and using the compiled application (the .exe from the
+    Releases page) to create your own schedule graphics, for personal or
+    commercial purposes.
+  - Images you produce with this application belong to you and may be used
+    freely.
+
+NOT PERMITTED without prior written permission from the copyright holder
+  - Copying, modifying, adapting, or creating derivative works from the
+    source code.
+  - Distributing, republishing, selling, renting, or sublicensing either the
+    source code or the application.
+  - Reverse engineering, decompiling, or disassembling the application.
+  - Using the source code, in whole or in part, in any other project.
+
+Public access to this source code is provided for transparency and review
+purposes only and does not grant any license or right stated above.
+
+--------------------------------------------------------------------------
+
+THIRD-PARTY COMPONENTS
+
+This project bundles third-party software and assets that remain subject to
+their own licenses, which are not superseded by this notice:
+
+  - Open-source dependencies listed in package.json (React, Electron, Konva,
+    Zustand, Tailwind CSS and others) — each under its own license.
+  - Fonts in public/fonts and "For prompt app": Kanit and Nunito are licensed
+    under the SIL Open Font License 1.1; Umeboshi is subject to its author's
+    own terms.
+  - Platform icons from Simple Icons (CC0 1.0); the trademarks and logos they
+    depict remain the property of their respective owners.
+  - The original graphic template design remains the property of its designer
+    (see the design credit shown in exported images).
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

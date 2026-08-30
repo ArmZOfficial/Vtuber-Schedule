@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "Modern VTuber Weekly Schedule Generator",
-  "author": "VTuber Schedule Team",
+  "author": "ArmZOfficial",
   "type": "module",
   "main": "dist-electron/main/index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "psd:layers": "node scripts/extract-layers.mjs",
     "psd:layout": "node scripts/build-layout.mjs",
     "psd:all": "npm run psd:dump && npm run psd:layers && npm run psd:layout",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "checksums": "node scripts/checksums.mjs"
   },
   "build": {
     "appId": "com.vtuberschedule.app",
@@ -30,7 +31,14 @@
       "target": [
         "nsis",
         "portable"
-      ]
+      ],
+      "signtoolOptions": {
+        "rfc3161TimeStampServer": "http://timestamp.digicert.com",
+        "timeStampServer": "http://timestamp.digicert.com",
+        "signingHashAlgorithms": [
+          "sha256"
+        ]
+      }
     },
     "portable": {
       "artifactName": "${productName} ${version} portable.${ext}"
@@ -45,7 +53,8 @@
       "dist-electron/**/*",
       "!**/*.map",
       "!**/*.ts"
-    ]
+    ],
+    "copyright": "Copyright (c) 2026 ArmZOfficial. All Rights Reserved."
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.20",
@@ -83,5 +92,6 @@
     "vite": "^8.2.0",
     "vite-plugin-electron": "^1.1.1",
     "vite-plugin-electron-renderer": "^1.0.0"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
